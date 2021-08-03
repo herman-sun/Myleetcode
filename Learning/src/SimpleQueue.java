@@ -44,7 +44,7 @@ class myQueue{
         }
     }
 
-    public int peek() {
+    public int getHead() {
         if (isEmpty()) {
             throw new RuntimeException("队列为空");
         } else {
@@ -63,7 +63,7 @@ class myQueue{
         }
     }
 
-    public int getHead() {
+    public int peek() {
         if (isEmpty()) {
             throw new RuntimeException("队列为空，无头");
         } else {
