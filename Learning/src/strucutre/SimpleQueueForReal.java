@@ -1,3 +1,6 @@
+package strucutre;
+
+
 import java.util.Scanner;
 
 public class SimpleQueueForReal {
@@ -18,10 +21,10 @@ public class SimpleQueueForReal {
                     queue.showQueue();
                     break;
                 case "c":
-                    queue.getHead();
+                    System.out.println(queue.getHead());
                     break;
                 case "d":
-                    queue.peek();
+                    System.out.println(queue.peek());
                     break;
             }
         }
