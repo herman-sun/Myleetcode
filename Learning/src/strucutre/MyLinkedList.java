@@ -1,8 +1,10 @@
 package strucutre;
 
-/**
- * 链表demo
- */
+ /**
+ 　　* @description: TODO
+ 　　* @author ShaoHua Sun
+ 　　* @date 2021/8/17 23:50
+ 　　*/
 public class MyLinkedList {
     public static void main(String[] args) {
         MyNode node1 = new MyNode(1, "a");
@@ -18,9 +20,18 @@ public class MyLinkedList {
     }
 }
 
+/**
+ * 
+ */
 class MyLinkedListDemo{
     public MyNode firstNode = new MyNode(0, "");
 
+ /**
+    *
+ 　　* @description: 链表添加
+ 　　* @author ShaoHua Sun
+ 　　* @date 2021/8/17 23:51
+ 　　*/
     public void add(MyNode node) {
         MyNode myNode = firstNode;
         while (true) {
@@ -47,6 +58,12 @@ class MyLinkedListDemo{
 
 }
 
+ /**
+    *
+ 　　* @description: 节点显示
+ 　　* @author ShaoHua Sun
+ 　　* @date 2021/8/17 23:51
+ 　　*/
 class MyNode {
     public int num;
     public String name;
